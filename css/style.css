@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Roboto');
+
+
+/*  Body  */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Dosis', sans-serif;
+}
+
+/* Section header */
+.header {
+  color: #fff;
+  width: 100%;
+  height: auto;
+  background: -moz-linear-gradient(left, #fd712c, #f31e7a);
+  background: -webkit-linear-gradient(left, #fd712c, #f31e7a);
+  background: -o-linear-gradient(left, #fd712c, #f31e7a);
+}
+
+.navbar-dark {
+  background-color: inherit;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 79px;
+}
+
+.navbar-dark a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-brand {
+  font-size: 36px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  padding: 0;
+}
+
+.navbar-brand img {
+  position: relative;
+  display: inline;
+  margin-right: 4px;
+}
+
+.navbar-brand p {
+  display: inline;
+  position: absolute;
+  margin-top: 12px;
+}
+
+.nav-item {
+  margin-right: 12px;
+}
+
+.btn-quote {
+  width: 153px;
+  height: 35px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.btn-quote a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #222;
+}
+
+/* Content */
+.content {
+  padding: 0;
+}
+
+.content h1 {
+  font-size: 54px;
+  font-weight: 600;
+  font-family: 'Dosis', sans-serif;
+  line-height: 60px;
+  margin: 70px 14px 24px  0;
+}
+
+.content p {
+  font-weight: 300;
+}
+
+.content ul {
+  padding: 0;
+  margin: 0;
+}
+
+.content ul li {
+  list-style: none;
+  line-height: 34px;
+}
+
+.fa-check-circle {
+  margin-right: 22px;
+}
+
+.btn-start-explore {
+  width: 194px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-top: 39px;
+  border: 3px solid #e25c30;
+  font-weight: 600;
+}
+
+.btn-start-explore a {
+  text-decoration: none;
+  color: #222;
+}
+
+.iphones {
+  padding: 0;
+  margin-bottom: 83px;
+}
+
+.iphones img {
+}
+
+/* Section features */
+.features {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+
+.features p {
+  color: #777777;
+  font-weight: 300;
+}
+
+.features h3 {
+  font-weight: 600;
+}
+
+.fa-life-ring,
+.fa-tags,
+.fa-cog,
+.fa-paint-brush,
+.fa-fire-extinguisher,
+.fa-file-alt {
+  padding: 26px 24px 27px 24px;
+  color: #f31f79;
+  font-size: 24px;
+  background-image: url(img\bg_1.png);
+  border: 1px solid #efefef;
+  border-radius: 45px;
+}
